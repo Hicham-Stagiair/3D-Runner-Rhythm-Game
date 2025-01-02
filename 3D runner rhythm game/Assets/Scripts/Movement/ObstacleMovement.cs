@@ -28,7 +28,7 @@ public class ObstacleMovement : MonoBehaviour
         if(transform.position == endPos)
         {
             //Debug.Log("reached end");
-            
+            Destroy(gameObject);
         }
     }
 }
